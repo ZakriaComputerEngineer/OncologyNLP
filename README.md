@@ -31,3 +31,22 @@ Official repository containing the experimental Jupyter notebooks, empirical par
   Lightweight generative AI fine-tuning and zero-shot baseline evaluation on clinical disease and chemical entity recognition benchmarks.
 - **[Training_14B_Clinical_LLM.ipynb](Training_14B_Clinical_LLM.ipynb)**  
   Native float16 LoRA adapter training and evaluation workflow for clinical entity extraction.
+
+---
+
+## Key Empirical Figures
+
+### 1. Paradigm Comparison Matrix (Zero-Shot, Few-Shot, QLoRA, and Domain-Adapted Hybrid RAG)
+![Figure 1: Paradigm Comparison Matrix](figures/figure1_paradigm_matrix.png)
+
+### 2. Entity Sub-Category Extraction Accuracy across Clinical HCC Classes
+![Figure 2: Entity Sub-Categories](figures/figure2_entity_subcategories.png)
+
+### 3. Empirical Parameter Scaling Frontier (0.6B to 70.5B Parameters)
+![Figure 3: Parameter Scaling Frontier](figures/figure3_scaling_frontier.png)
+
+### 4. Clinical Hallucination Decay vs. Hardware VRAM Footprint
+![Figure 4: Hallucination vs VRAM](figures/figure4_hallucination_vs_vram.png)
+
+### 5. Component-Wise Ablation Study of the Domain-Adapted RAG Pipeline
+![Figure 5: Ablation Study](figures/figure5_ablation_study.png)
